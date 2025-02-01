@@ -1,13 +1,15 @@
 # Actividad 1
-# Integrantes: Quilumbaquin Pillisa Alan David
+# Integrantes: Quilumbaquin Pillisa Alan David, Luis Andres Lopez Mora
 
 # Como clonar el proyecto
 1: Ubíquese en la carpeta en donde desea guardar el proyecto
+
 2: Ejecute el siguiente comando de Git para clonar el proyecto
 
 git clone https://github.com/ALINFINITY/PIC_2P.git
 
 3: Abra el proyecto dentro de un IDE de programación como VSCode
+
 4: Ejecute el siguiente comando para instalar las dependencias del proyecto
 
 npm install
@@ -31,17 +33,17 @@ npm run dev
 
 * El componente habitaciónform utiliza una función de validación para que las habitaciones tengan un tipo y precio diferente de vació y mayor a cero respectivamente.
 
-*Los componentes form de habitación y cliente se utilizan tanto para registrar nuevos elementos como para actualizar los elementos existentes, por lo que, se utilizan ids de referencia y banderas de actualización para manejar las actualizaciones.
+* Los componentes form de habitación y cliente se utilizan tanto para registrar nuevos elementos como para actualizar los elementos existentes, por lo que, se utilizan ids de referencia y banderas de actualización para manejar las actualizaciones.
 
-*Las habitaciones que han sido reservadas no se pueden eliminar hasta que la reserva se elimine o complete, este bloqueo de habitaciones se maneja en reservasform.
+* Las habitaciones que han sido reservadas no se pueden eliminar hasta que la reserva se elimine o complete, este bloqueo de habitaciones se maneja en reservasform.
 
-*Una habitación reservada por un cliente ya no la puede reservar otro cliente hasta que se desocupe, esta condición se la maneja en reservasform
+* Una habitación reservada por un cliente ya no la puede reservar otro cliente hasta que se desocupe, esta condición se la maneja en reservasform
 
-*Las fechas de reserva de los clientes no pueden solaparse, estar vacías o ingresarse en el orden incorrecto, esto se valida con las funciones correspondientes en reservasform.
+* Las fechas de reserva de los clientes no pueden solaparse, estar vacías o ingresarse en el orden incorrecto, esto se valida con las funciones correspondientes en reservasform.
 
-*En reservasform se manejan mensajes de error personalizados.
+* En reservasform se manejan mensajes de error personalizados.
 
-*La aplicación cuenta con una página de inicio.
+* La aplicación cuenta con una página de inicio.
 
 
 
