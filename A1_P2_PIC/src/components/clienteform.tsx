@@ -75,12 +75,14 @@ export const Cliente_form: React.FC<PropsClienteForm> = ({
         <input
           type="text"
           value={nombrec}
+          placeholder="nombre"
           onChange={(e) => setNombrec(e.target.value)}
         />
         <nav>Correo</nav>
         <input
           type="email"
           value={correoc}
+          placeholder="email"
           onChange={(e) => setCorreoc(e.target.value)}
         />
         <button

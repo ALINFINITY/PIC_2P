@@ -5,10 +5,16 @@
 1: Ubíquese en la carpeta en donde desea guardar el proyecto
 2: Ejecute el siguiente comando de Git para clonar el proyecto
 
+git clone https://github.com/ALINFINITY/PIC_2P.git
+
 3: Abra el proyecto dentro de un IDE de programación como VSCode
 4: Ejecute el siguiente comando para instalar las dependencias del proyecto
 
+npm install
+
 5: Ejecute el siguiente comando para desplegar el proyecto
+
+npm run dev
 
 6: Ingrese al proyecto a través de localhost:5173
 
