@@ -1,0 +1,111 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  color: white;
+}
+
+
+.mybtn{
+  padding: 10px 5px ;
+  margin: 4px;
+  text-shadow: -2px -1px 1px black;
+}
+
+.mytabla{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.mytabla td,
+.mytabla th{
+  border: 2px solid white;
+  padding: 2px;
+}
+
+.mymenu a{
+  text-decoration: none;
+}
+
+input, select{
+  border: 2px solid white ;
+  border-radius: 10px;
+  padding: 4px;
+}
+
+.mymenu{
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 2px solid white;
+  border-radius: 30px;
+  position: sticky;
+  top: 0;
+  background-color: black;
+  font-size: 1.2rem;
+}
+
+.mymenu a{
+  padding: 6px;
+  margin: 0 10px;
+  font-weight: bold;
+  color: white;
+  text-shadow: -2px -1px 10px lime;
+}
+
+.mdl{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid white;
+  border-radius: 4px;
+}
+
+/*Estilos formularios*/
+.myform{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 8px;
+  align-items: center;
+}
+
+.myform input,
+.myform select{
+  width: 30%;
+  text-align: center;
+}
+
+.myform button{
+  width: fit-content;
+}
+
+.myform h2{
+  text-shadow: -2px -1px 8px lightseagreen;
+}
+
+.inicio{
+  font-family: cursive;
+}
+
+.inicio h1{
+  text-shadow: 0 0 12px rgb(255, 0, 85);
+  margin: 20px;
+  padding: 30px;
+}
+
+.inicio p{
+  text-shadow: 0 0 10px cyan;
+  font-size: 1.2rem;
+}
+
+.inicio h3{
+  text-shadow: 0 0 12px lime;
+  margin: 20px;
+  padding: 30px;
+}
+
