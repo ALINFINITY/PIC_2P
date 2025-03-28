@@ -4,8 +4,6 @@
 
 * Quilumbaquin Pillisa Alan David
 
-* Luis Andres Lopez Mora
-
 # Como clonar el proyecto
 
 1: Ubíquese en la carpeta en donde desea guardar el proyecto
