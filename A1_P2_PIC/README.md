@@ -1,7 +1,13 @@
-# Actividad 1
-# Integrantes: Quilumbaquin Pillisa Alan David, Luis Andres Lopez Mora
+# Actividad 1 - App Reservas Hoteleras
+
+# Integrantes: 
+
+* Quilumbaquin Pillisa Alan David
+
+* Luis Andres Lopez Mora
 
 # Como clonar el proyecto
+
 1: Ubíquese en la carpeta en donde desea guardar el proyecto
 
 2: Ejecute el siguiente comando de Git para clonar el proyecto
@@ -21,6 +27,7 @@ npm run dev
 6: Ingrese al proyecto a través de localhost:5173
 
 # Funcionalidades Implementadas
+
 * El proyecto incluye un menu de navegación, para navegar por toda la aplicación, para implementar el menú se utilizo react-router-dom
 
 * El proyecto incluye estilos propios y estilos de bootstrap.
